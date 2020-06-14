@@ -1,0 +1,47 @@
+/*****
+ *veuiller svp enlever en commentaire la ligne 29 et enregistrer
+*****/
+body{
+	font-family: Arial, sans-serif;
+	margin: 5% 5% 5% 5%;
+	padding: 5% 5% 5% 5%;
+}
+img{
+	width: 70%; height: 70%; border-radius: 50%;
+}
+img:hover{
+	width: 90%; height: 90%; border-radius: 10%;
+}
+.button{
+	border-color: #2e13f7;
+	border-radius: 4px;
+	color: black;
+	font-size: 20px;
+	width: 6em;
+	height: 2.5em;
+}
+.button:hover{
+	background-color: #2e13f7; color: white;
+}
+.global{
+	display:inline-flex;/*aligner verticalement*/
+	flex-direction: row;
+}
+/*.global:hover{
+	display:inline-block;
+	flex-direction: row;
+}*/
+.align{
+	font-size: 20px;/*taille du texte*/
+}
+p{
+	color: #2e13f7;/*couleur du playstation*/
+}
+div{
+	display:inline-block; align-items: center;
+}
+b:hover{
+	font-size: 25px;
+	color: #7877F9;
+	font-family: Calibri;
+}
